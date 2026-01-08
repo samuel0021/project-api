@@ -27,7 +27,7 @@ namespace Project.Api.Models
         public User User { get; set; }
 
         [Column("image_path")]
-        public string? ImagePath { get; set; }  // Caminho/URL da imagem
+        public string? ImagePath { get; set; }  // Caminho da imagem
 
         public Review() { }
 
